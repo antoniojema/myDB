@@ -5,7 +5,7 @@
 #include <optional>
 #include <vector>
 
-#define BUFF_SIZE 1048576
+constexpr size_t BUFF_SIZE = 1048576;
 
 namespace Socket {
 
